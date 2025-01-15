@@ -70,11 +70,14 @@ Steps:
 
    Windows (MinGW):
          qmake -project
+   
          qmake
+   
          mingw32-make
    
    Linux/macOS:
          qmake
+   
          make
          
 
