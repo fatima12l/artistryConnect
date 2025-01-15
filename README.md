@@ -50,3 +50,42 @@ Database Used:
 We have used SQLITE for storing the data as follow:
 ![image](https://github.com/user-attachments/assets/aa6e89dd-f9c9-4af1-843c-9199ee9074ef)
 
+
+
+Build and Run Instructions
+
+
+Prerequisites:
+
+Install Qt (with qmake tool) from Qt's website.
+Install a C++ compiler (e.g., MinGW for Windows, GCC for Linux/macOS).
+Ensure make (Linux/macOS) or mingw32-make (Windows) is installed.
+
+
+Steps:
+1. Clone the repository:
+           git clone https://github.com/yourusername/artistryconnect.git
+           cd artistryconnect
+2. Generate Makefiles and build:
+
+Windows (MinGW):
+          qmake -project
+          qmake
+          mingw32-make
+Linux/macOS:
+         qmake
+         make
+         
+
+3.Bundle dependencies (Optional for portability):
+
+         Windows: Run windeployqt artistryconnect.exe
+         Linux: Run linuxdeployqt artistryconnect -appimage
+         macOS: Run macdeployqt artistryconnect.app
+
+         
+4.Run the application:
+
+       Windows: Double-click artistryconnect.exe
+       Linux: Make AppImage executable: chmod +x artistryconnect.AppImage, then run ./artistryconnect.AppImage
+       macOS: Double-click the .app bundle.
