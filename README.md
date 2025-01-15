@@ -72,6 +72,7 @@ Steps:
          qmake -project
          qmake
          mingw32-make
+   
    Linux/macOS:
          qmake
          make
