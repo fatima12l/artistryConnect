@@ -69,6 +69,7 @@ Steps:
 2. Generate Makefiles and build:
 
    Windows (MinGW):
+   
          qmake -project
    
          qmake
@@ -76,6 +77,7 @@ Steps:
          mingw32-make
    
    Linux/macOS:
+   
          qmake
    
          make
