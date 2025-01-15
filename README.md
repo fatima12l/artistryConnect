@@ -68,11 +68,11 @@ Steps:
            cd artistryconnect
 2. Generate Makefiles and build:
 
-         Windows (MinGW):
+   Windows (MinGW):
          qmake -project
          qmake
          mingw32-make
-         Linux/macOS:
+   Linux/macOS:
          qmake
          make
          
